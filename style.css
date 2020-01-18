@@ -1,0 +1,333 @@
+
+
+/*nav bar desktop */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+
+
+}
+.red {
+  background: red;
+}
+
+.displaynone {
+  visibility: hidden;
+}
+
+.topboy {
+  padding-top: 7vw;
+}
+
+.header {
+  padding-top: 0.6vw;
+  padding-left: 6vw;
+  padding-bottom: 0.6vw;
+  width:100%;
+  text-align: left;
+  display: inline-grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: none;
+  color:black;
+  font-size: 16px;
+  position: fixed;
+  font-family: helvetica;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*desktop large text*/
+
+.wrapper{
+
+  padding-left: 17vw;
+  text-align: left;
+  padding-right: 30vw;
+  padding-bottom: 10vw;
+}
+
+.bigtext{
+  font-size: 9vw;
+  font-kerning: normal;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: -.023em;
+  color: black;
+  line-height: 1.05;
+}
+
+.grey {
+  background-color:red;
+}
+.black {
+  color: black;
+}
+.white{
+  color: white;
+}
+
+.background1{
+  background-image: url(file:///Users/jonathandinetz%201/Downloads/IMG_7328_1.gif);
+  background-position:top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+.background2{
+  background-image: url(file:///Users/jonathandinetz%201/Downloads/IMG_7334.gif);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: cover;
+}
+
+.background3{
+  background-image: url('file:///Users/jonathandinetz%201/Documents/Documents%20-%20MacBook%20Pro%20(3)/projects/CODESHIT/my_site/presentable.jpg');
+  background-position:top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.background4{
+  background-image: url(file:///Users/jonathandinetz%201/Downloads/IMG_7347.gif);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background5{
+  background-image: url('file:///Users/jonathandinetz%201/Downloads/IMG_7383.gif');
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background6{
+  background-image: url('file:///Users/jonathandinetz%201/Downloads/IMG_7385.gif');
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background7{
+  background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif1opt.gif);
+  background-position:top center;
+}
+.background8{
+  background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif1opt.gif);
+  background-position:top center;
+}
+.background9{
+  background-image: url(file:///Users/jonathandinetz%201/Downloads/IMG_6932.gif);
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*destop individual work page*/
+.headerwork {
+  padding-top: 0.6vw;
+  padding-left: 6vw;
+  padding-bottom: 0.6vw;
+  width:100%;
+  text-align: left;
+  display: inline-grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: white;
+  color:black;
+  font-size: 16px;
+  position: fixed;
+  font-family: helvetica;
+}
+
+.title {
+  font-size: 5vw;
+  font-kerning: normal;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: -.023em;
+  color: black;
+  line-height: 1.05;
+}
+
+.titletopboy {
+  padding-left: 6.5vw;
+  font-size: 48px;
+  font-kerning: normal;
+  font-family: helvetica;
+  font-weight: normal;
+  font-style: oblique;
+  letter-spacing: -.023em;
+  color: black;
+  line-height: 1.05;
+  text-align: left;
+  position: fixed;
+  color: white;
+  letter-spacing: 0.1;
+}
+.wrappergrid{
+  display: grid;
+  grid-gap:1em;
+  grid-template-columns:3 1fr;
+  object-fit: scale-down;
+  max-width: 100%;
+  height:auto;
+  background-size: cover;
+  padding: 1em;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.wrappergrid > div{
+  background: none;
+  padding:0;
+}
+/* info slide-up*/
+
+.info {
+  background-color:black;
+  padding-left: 6.5vw;
+  font-size: 48px;
+  font-kerning: normal;
+  font-family: helvetica;
+  font-weight:normal;
+  font-style: oblique;
+  letter-spacing: -.023em;
+  color: white;
+  line-height: 1.05;
+  text-align: left;
+  position: fixed;
+  letter-spacing: 0.1;
+}
+
+
+div.purple {
+  padding: 20vw;
+  background-color: red;
+  font-family: helvetica;
+}
+
+/*all the buttons! */
+
+button {
+    display: inline-block;
+    position: fixed;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-style: oblique;
+    cursor: pointer;
+    text-align: center;
+    transition: color 250ms ease-in-out,
+                transform 200ms ease;
+
+    background: none;
+}
+
+.padding {
+  padding-top: 90vh;
+}
+
+button:focus {
+    outline: 0px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: rotate(45deg);
+
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: normal;
+}
+
+
+/* switch to mobile */
+
+@media(max-width: 700px) {
+/*nav bar mobile */
+.header {
+  padding-top: 2.5vw;
+  padding-left: 5.5vw;
+  padding-bottom: 2.5vw;
+  width:100%;
+  text-align: left;
+  background-color: none;
+  color:black;
+  font-size: 15px;
+  position: fixed;
+  font-family: helvetica;
+}
+
+.displaynone {
+  visibility: hidden;
+}
+
+/*mobile large text*/
+  .bigtext{
+    font-size: 17vw;
+    letter-spacing: -.015em;
+    font-kerning: normal;
+    line-height: 1;
+  }
+  .wrapper{
+    padding-left: 6.5vw;
+    padding-bottom: 15vw;
+    text-align: left;
+
+  }
+  .topboy {
+    padding-top: 16vw;
+  }
+
+  .wrappergrid{
+    display: grid;
+    grid-gap:1em;
+    grid-template-columns: 1fr;
+    object-fit: scale-down;
+    max-width: 100%;
+    height:auto;
+    background-size: cover;
+    padding: 1em;
+  }
+  .titletopboy {
+    padding-top: 90vh;
+    padding-left: 6.5vw;
+    font-size: 32px;
+    font-kerning: normal;
+    font-family: helvetica;
+    font-weight:normal;
+    font-style: oblique;
+    letter-spacing: -.023em;
+    color: black;
+    line-height: 1.05;
+    text-align: left;
+    position: fixed;
+    color: white;
+    letter-spacing: 0.1;
+  }
